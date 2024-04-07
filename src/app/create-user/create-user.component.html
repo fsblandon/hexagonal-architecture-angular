@@ -1,0 +1,11 @@
+<form [formGroup]="formUser">
+  <div>
+    <label>Name:</label>
+    <input formControlName="nameControl" placeholder="Name">
+  </div>
+  <div>
+    <label>Email:</label>
+    <input formControlName="emailControl" placeholder="Email">
+  </div>
+  <button (click)="handleSubmit()">Create</button>
+</form>
